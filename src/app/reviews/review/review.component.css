@@ -1,26 +1,91 @@
-.review-form, .reviews-list {
-    margin: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .rating {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .rating span {
-    font-size: 24px;
-    color: #ccc;
-  }
-  
-  .rating span.filled {
-    color: #ffcc00; /* Златна боја за пополнети ѕвезди */
-  }
-  
-  .btn-primary {
-    margin-top: 10px;
-  }
-  
+/* Убав дизајн за форма и рецензии */
+.review-form {
+  max-width: 45%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 9rem;
+}
+
+.review-form h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.rating span {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-right: 0.2rem;
+}
+
+.rating .filled {
+  color: #f39c12;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Стил за листа на рецензии */
+.reviews-list {
+  max-width: 45%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-list h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.review-item {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.review-item h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+

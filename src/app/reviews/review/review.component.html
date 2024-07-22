@@ -9,9 +9,10 @@
       <div class="form-group">
         <label for="rating">Оценка:</label>
         <div class="rating">
-          <span *ngFor="let star of stars; let i = index"
-                (click)="setRating(i + 1)"
+          @for(star of stars; track stars;let i = $index) {
+          <span (click)="setRating(i + 1)"
                 [ngClass]="{'filled': review.rating >= (i + 1)}">&#9733;</span>
+          }
         </div>
       </div>
       <button type="submit" class="btn btn-primary">Испрати</button>
@@ -21,12 +22,16 @@
   <!-- Листа на рецензии -->
   <div class="reviews-list">
     <h3>Рецензии</h3>
-    <div *ngFor="let rev of reviews">
+    @for(rev of reviews;track reviews){
+    <div class="card" style="margin-bottom: 1rem;">
       <h4>{{ rev.name }}</h4>
       <div class="rating">
-        <span *ngFor="let star of stars" [ngClass]="{'filled': rev.rating >= (star + 1)}">&#9733;</span>
+        @for(star of stars;track stars){
+        <span  [ngClass]="{'filled': rev.rating >= (star + 1)}">&#9733;</span>
+        }
       </div>
-      <p>Оценка: {{ rev.rating }} звезди</p>
     </div>
+  }
+
   </div>
   
