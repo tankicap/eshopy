@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {
+      "id": "45f4",
+      "name": "Jan",
+      "rating": 3
+    },
+    {
+      "id": "94f3",
+      "name": "Tankica",
+      "rating": 5
+    },
+    {
+      "id": "1966",
+      "name": "Tankica Ponoca",
+      "rating": 3
+    }
+  ]
+}

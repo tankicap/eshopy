@@ -1,0 +1,61 @@
+main {
+    width: 70%;
+    margin: 3rem 15%;
+    margin-top: 12rem;
+    color: white;
+    margin-bottom: 7rem;
+    text-align: center;
+    display: flex;
+}
+
+p:first-child{
+    font-weight: bold;
+}
+p:last-of-type{
+    color: white;
+    font-size: 25px;
+    animation: pulse 2s infinite;
+  
+}
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .movie-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+  }
+  .movie-section .up {
+    transform: translateY(-20px); /* Adjust the value to move the second image up */
+  }
+@media(min-width:1091px){
+    .main{
+        margin-right: 5rem;
+      }
+    
+}
+ 
+
+  
+  @media(max-width:1090px){
+    .movie-section{
+        display: none;
+    }
+  }

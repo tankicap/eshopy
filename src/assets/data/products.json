@@ -1,0 +1,68 @@
+[
+  
+    {
+        "id": "4",
+        "name": "Canva",
+        "price": "40 Euro",
+        "picture": "canva.png",
+        "description":"CanvaPRO.jpg"
+    },
+   
+    
+    {
+        "id": "7",
+        "name": "Disney+",
+        "price": "40 Euro",
+        "picture": "disney+.jpg",
+        "description": "Disney+.jpg"
+    },
+    {
+        "id": "8",
+        "name": "HBO Max",
+        "price": "40 Euro",
+        "picture": "hbo-max.jpg",
+        "description": "HBO.jpg"
+    },
+    {
+        "id": "9",
+        "name": "NordVPN",
+        "price": "40 Euro",
+        "picture": "NordVPN.jpeg",
+        "description": "NORD.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Microsoft Office 365",
+        "price": "40 Euro",
+        "picture": "office.jpg",
+        "description": "OFFICE.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Amazon Prime Video",
+        "price": "40 Euro",
+        "picture": "ama.jpg",
+        "description": "AMAZON.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Spotify",
+        "price": "40 Euro",
+        "picture": "spotify.jpeg",
+        "description": "Spotify.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Windows Activation Key",
+        "price": "40 Euro",
+        "picture": "w.jpg",
+        "description": "Windows.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Youtube Premium",
+        "price": "40 Euro",
+        "picture": "Yout.jpg",
+        "description": "YT.jpg"
+    }
+]

@@ -1,0 +1,13 @@
+.movie-card {
+    background-color: #2d3748;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 1rem;
+    text-align: center;
+    color: white;
+    
+  }
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }

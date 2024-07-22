@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    .navbar {
+      height: 80px; /* Пример за висина на навбарот за LG екрани */
+    }
+  }
+
+  li a{
+    color:  rgb(144 249 253);
+
+  }
+
+  li a:hover{
+    font-weight: bold;
+    color:  rgb(6, 90, 135)
+  }

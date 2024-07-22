@@ -1,0 +1,26 @@
+.review-form, .reviews-list {
+    margin: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .rating {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .rating span {
+    font-size: 24px;
+    color: #ccc;
+  }
+  
+  .rating span.filled {
+    color: #ffcc00; /* Златна боја за пополнети ѕвезди */
+  }
+  
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
